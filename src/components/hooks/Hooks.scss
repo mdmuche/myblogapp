@@ -1,0 +1,51 @@
+.red{
+    background-color: red;
+    color: white;
+    margin: 2rem 15%;
+    padding: 1rem;
+    font-size: 25px;
+    border-radius: 15px;
+    &:hover{
+        box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.2);
+    }
+}
+.yellow{
+    background-color: yellow;
+    color: white;
+    margin: 2rem 15%;
+    padding: 1rem;
+    font-size: 25px;
+    border-radius: 15px;
+    &:hover{
+        box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.2);
+    }
+}
+.green{
+    background-color: green;
+    color: white;
+    margin: 2rem 15%;
+    padding: 1rem;
+    font-size: 25px;
+    border-radius: 15px;
+    &:hover{
+        box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.2);
+    }
+}
+.brown{
+    background-color: brown;
+    color: white;
+    margin: 2rem 15%;
+    padding: 1rem;
+    font-size: 25px;
+    border-radius: 15px;
+    &:hover{
+        box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.2);
+    }
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 2vw;
+    padding: 0.5rem;
+}

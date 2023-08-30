@@ -1,0 +1,11 @@
+
+.update-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem 0;
+    .update-btn1, .update-btn2{
+        font-size: 40px;
+    }
+}

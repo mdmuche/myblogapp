@@ -1,0 +1,36 @@
+$nav_bg: blue;
+$nav_fs: 2vw;
+
+@mixin flex{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    padding: 0.5rem 2rem;
+    background-color: $nav_bg;
+
+    ol{
+        list-style-type: none;
+        @include flex();
+        text-transform: capitalize;
+        color: white;
+        font-size: $nav_fs;
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        padding: 0.5rem 1rem;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 9px;
+        &:hover{
+            background-color: gold;
+            color: purple;
+        }
+    }
+}

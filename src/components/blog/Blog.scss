@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blogs-page{
+   background: black;
+   color: white;
+
+h1{
+   text-align: center;
+   color: red;
+   &:hover{
+    color: blue;
+    transition: 3s ease-in-out;
+   }
+}
+   .blogs-page-latest{
+    margin: 0.5rem 15%;
+    padding: 0.5rem 3%;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 9px;
+    &:hover{
+        background-color: grey;
+        box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.2);
+        transition: 0.5s;
+    }
+    h5{
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    a{
+        text-decoration: none;
+        margin: 1rem;
+        color: red;
+    }
+   }
+}

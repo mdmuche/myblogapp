@@ -1,0 +1,48 @@
+.dialog-box{
+    border-radius: 18px;
+    background-color: red;
+    box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.2);
+    opacity: 0.8;
+    width: 40%;
+    height: 30vh;
+    margin: 0 30%;
+    position: absolute;
+    top: 9rem;
+    padding: 2rem 0;
+    .head{
+        display: flex;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+        .cancel{
+            font-size: 20px;
+        }
+    }
+    p{
+        text-align: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-weight: 800;
+    }
+    .dialog-btn{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0.5rem 10%;
+    }
+    .btn1{
+        padding: 0.5rem 10%;
+        background-color: orange;
+        font-size: 20px;
+        font-weight: 800;
+        border: none;
+        border-radius: 8px;
+    }
+    .btn2{
+        padding: 0.5rem 10%;
+        background-color: orange;
+        font-size: 20px;
+        font-weight: 800;
+        border: none;
+        border-radius: 8px;
+    }
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.details-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 20px;
+    h1{
+        animation: authormove 10s linear  infinite;
+    }
+    .blog-details{
+       border: 10px solid red;
+       border-right: none;
+       border-top: none;
+       border-bottom: none;
+       border-radius: 2px 3px 3px 5px;
+        height: fit-content;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        padding: 0.5rem 1%;
+        animation-name: movement;
+        animation-duration: 3s;
+        animation-iteration-count: 2s;
+        animation-timing-function: linear;
+
+        @keyframes movement {
+            0%   {border-color: red green brown blue;
+                border-style: solid dashed dotted solid;
+                border-width: 5px;}
+            25%  {border-color: blue red green brown;
+                border-style: solid solid dashed dotted;
+                border-width: 5px;}
+            50%  {border-color: brown blue red green;
+                border-style: dotted solid solid dashed;
+                border-width: 5px;}
+            100% {border-color: green brown blue red;
+                border-style: dashed dotted solid solid;
+                border-width: 5px;}
+        }
+        h5{
+            // color: green;
+            animation: authormove 10s ease-in-out  infinite;
+        }
+
+        @keyframes authormove {
+            0%{
+                color: red;
+            }
+            25%{
+                color: blue;
+            }
+            50%{
+                color: red;
+            }
+            100%{
+                color: blue;
+            }
+        }
+        .details-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 1rem;
+            .btn1{
+                font-size: 30px;
+            }
+            .btn2{
+                font-size: 30px;
+            }
+            .btn3{
+                font-size: 30px;
+            }
+        }
+    }
+    // h1{
+    //     text-align: center;
+    // }
+    // h2{
+    //     text-align: center;
+    // }
+    // p{
+    //     text-align: center;
+    // }
+}
